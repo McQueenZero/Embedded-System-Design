@@ -1,0 +1,27 @@
+*** Creating Trace Output File '..\output\LEDs.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\output\system_stm32f10x.o"'
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\stm32f10x_it.o"'
+### List of Objects: adding '"..\output\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\output\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\output\misc.o"'
+### List of Objects: adding '"..\output\core_cm3.o"'
+### List of Objects: adding '"..\output\led_config.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\output\startup_stm32f10x_hd.o" "..\output\system_stm32f10x.o" "..\output\main.o" "..\output\stm32f10x_it.o" "..\output\stm32f10x_rcc.o" "..\output\stm32f10x_gpio.o" "..\output\misc.o" "..\output\core_cm3.o" "..\output\led_config.o" --strict --scatter "..\output\LEDs.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\lists\LEDs.map" -o "..\output\LEDs.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\output\LEDs.axf'
+### ADS-LD Command File: '..\output\LEDs.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\output\LEDs.lnp', Handle=0x00000384
+### Writing '.lnp' file
+### ADS-LD Command file '..\output\LEDs.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

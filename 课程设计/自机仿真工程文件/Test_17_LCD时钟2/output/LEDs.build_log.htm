@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Zero McQueen, NOGIZAKA 46, LIC=MPPBS-LGA2B-EHB8P-M4B1F-EEBBZ-P8HWV
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  E:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+C:\Users\McQueen_Zero\Desktop\嵌入式系统及其应用\课程设计\自机仿真工程文件\Test_17_LCD时钟2\Project\LCD_TFT.uvproj
+Project File Date:  03/11/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'E:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'STM32Project'
+assembling startup_stm32f10x_hd.s...
+compiling LED_Config.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling main.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_it.c...
+compiling stm32f10x_rcc.c...
+compiling PCF8563.c...
+..\HardConfig\SRC\PCF8563.c(227): warning:  #177-D: variable "Century"  was declared but never referenced
+  	    unsigned char HH, MM,SS=0,Century,Years,Month,Weeks,Days;
+..\HardConfig\SRC\PCF8563.c: 1 warning, 0 errors
+compiling LCD_ILI9325.c...
+..\User\inc\GB3232.h(115): warning:  #1-D: last line of file ends without a newline
+   
+..\HardConfig\SRC\LCD_ILI9325.c: 1 warning, 0 errors
+compiling Touch.c...
+..\HardConfig\SRC\Touch.c(238): warning:  #177-D: variable "tp_adj"  was declared but never referenced
+  	  u8 tp_adj=0;
+..\HardConfig\SRC\Touch.c(350): warning:  #550-D: variable "temp"  was set but never used
+    u16 tp_x,tp_y,temp; 
+..\HardConfig\SRC\Touch.c(133): warning:  #177-D: function "Get_TP_BUSY"  was declared but never referenced
+  static u8 Get_TP_BUSY(void)
+..\HardConfig\SRC\Touch.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=9968 RO-data=336 RW-data=3820 ZI-data=1060  
+"..\output\LEDs.axf" - 0 Error(s), 5 Warning(s).
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
